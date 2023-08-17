@@ -3,7 +3,7 @@ function gtbUssd() {
 
   if (gtCode === "*737#") {
     let options = prompt(
-      "\n1. Airtime self \n2. Airtime others \n3. Trsf-GTB \n4. Trsf others \n5. Pay bills"
+      "\n1. Airtime self \n2. Airtime others \n3. Transfer-GTB \n4. Transfer others \n5. Pay bills"
     );
     switch (options) {
       //AIRTIME SELF
@@ -35,7 +35,7 @@ function gtbUssd() {
           prompt("Enter amount");
           let pin = prompt("Enter pin");
           if (pin.length === 4) {
-            alert("processing, you will recieve a message shortly");
+            alert("processing, you will receive a message shortly");
           } else {
             alert("wrong pin");
           }
@@ -56,7 +56,7 @@ function gtbUssd() {
               prompt("Enter amount");
               let pin = prompt("Enter pin");
               if (pin.length === 4) {
-                alert("processing, you will recieve a message shortly");
+                alert("processing, you will receive a message shortly");
               } else {
                 alert("wrong pin");
               }
@@ -71,7 +71,7 @@ function gtbUssd() {
               prompt("Enter amount");
               let pin = prompt("Enter pin");
               if (pin.length === 4) {
-                alert("processing, you will recieve a message shortly");
+                alert("processing, you will receive a message shortly");
               } else {
                 alert("wrong pin");
               }
@@ -86,7 +86,7 @@ function gtbUssd() {
               prompt("Enter amount");
               let pin = prompt("Enter pin");
               if (pin.length === 4) {
-                alert("processing, you will recieve a message shortly");
+                alert("processing, you will receive a message shortly");
               } else {
                 alert("wrong pin");
               }
@@ -101,7 +101,7 @@ function gtbUssd() {
               prompt("Enter amount");
               let pin = prompt("Enter pin");
               if (pin.length === 4) {
-                alert("processing, you will recieve a message shortly");
+                alert("processing, you will receive a message shortly");
               } else {
                 alert("wrong pin");
               }
@@ -136,7 +136,7 @@ function gtbUssd() {
             prompt("Enter your card Number");
             prompt("Enter amount");
             alert(
-              "Congratulations You've activate a monthly premium Subscribtion"
+              "Congratulations You've activate a monthly premium Subscription"
             );
             break;
         }
